@@ -1,8 +1,8 @@
 name: Release X-ui
 on:
   push:
-    tags:
-      - 0.*
+      tags:
+      - v
   workflow_dispatch:
 
 jobs:
