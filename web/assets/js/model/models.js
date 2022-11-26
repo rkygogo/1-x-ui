@@ -160,8 +160,8 @@ class AllSetting {
     constructor(data) {
         this.webListen = "";
         this.webPort = 54321;
-        this.webCertFile = "";
-        this.webKeyFile = "";
+        this.webCertFile = "/root/ygkkkca/cert.crt";
+        this.webKeyFile = "/root/ygkkkca/private.key";
         this.webBasePath = "/";
         this.tgBotEnable = false;
         this.tgBotToken = "";
